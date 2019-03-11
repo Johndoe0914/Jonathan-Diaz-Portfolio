@@ -1,0 +1,191 @@
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid;
+    color: black;
+    background-color:white;
+    border-color: black;
+
+}
+
+#firstparallax{
+    position: relative;
+    background-image: url(./city\ glasses.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  
+    
+}
+#secondparallax{
+    position: relative;
+    width: 100%;
+    background-image: url(./coderwallpaper.jpeg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#thirdparallax{
+    position: relative;
+    width: 100%;
+    background-image: url(./coder123.jpeg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav-bar{
+    position: relative;
+    height: 100px;
+}
+
+#aboutmecontainer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color:white;
+    z-index: 10;
+    margin: auto;
+    border-style: solid;
+    border-color: grey
+
+}
+#myimage{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin: auto
+}
+#portfoliocontainer{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    z-index: 10;
+    margin: auto;
+    border-style: solid;
+    border-color: grey;
+    
+
+}
+
+#portfolioimage1{
+    position: relative;
+   background-image: url(./Traintime.jpeg);
+   top: 20px;
+   width:100px;
+   height: 300px;
+   margin: 15px;
+}
+#portfolioimage2{
+    position: relative;
+    background-image: url(./safelyimage.jpeg);
+    top: 20px;
+    width: 100px;
+    height:300px;
+    margin: 10px
+}
+#portfolioimage3{
+    position: relative;
+    background-image: url(./psychicimage.jpeg);
+    top: 20px;
+    width: 100px;
+    height:300px;
+    margin: 10px
+}
+#portfolioimage4{
+    position: relative;
+    background-image: url(./crystalimage.jpeg);
+    top: 20px;
+    width: 100px;
+    height:300px;
+    margin: 10px
+
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color:black;
+    padding-top: 50px;
+    border-style: solid;
+    text-align: center;
+}
+#links,#contactme{
+    margin-right: -700px;
+    margin-top: -40px;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 50px;
+    border-bottom-style: solid;
+    font-size: larger;
+}
+#portfolioText{
+    font-size: small;
+    line-height: 40px;
+    font-weight: bold;
+    border-left-style: solid
+    
+
+}
+
+
+
+    @media (max-width: 991.98px) {
+        .nav-item {
+            border-bottom: 2px solid #87B8B6;
+        }
+    
+        
+        
+        #galleries {
+            margin: auto;
+            max-width: 250px;
+        }
+    
+        .images {
+            clear: both;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            max-width: 250px;
+            display: block;
+            margin-top: 10px;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .galleryContainer {
+            display: block;
+        }
+        #galleries::before,#galleries::after {
+            box-sizing: content-box;
+        }
+        #galleries {
+            position: relative;
+            overflow: auto;
+            max-width: none;
+            margin: auto;
+            display: block;
+            width: 540px;
+        }
+        .images {
+            clear: none;
+            margin: 10px;
+        }
+    }
+    
