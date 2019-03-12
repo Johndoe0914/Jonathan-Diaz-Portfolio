@@ -9,7 +9,7 @@ header{
 
 #firstparallax{
     position: relative;
-    background-image: url(..//images/city\ glasses.jpeg);
+    background-image: url(../images/city\ glasses.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ header{
 #secondparallax{
     position: relative;
     width: 100%;
-    background-image: url(..//images/coderwallpaper.jpeg);
+    background-image: url(../images/coderwallpaper.jpeg);
     height: 500px;
     background-attachment: fixed;
     background-position: center;
