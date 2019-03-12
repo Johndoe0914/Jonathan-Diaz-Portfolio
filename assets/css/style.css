@@ -9,7 +9,7 @@ header{
 
 #firstparallax{
     position: relative;
-    background-image: url(./city\ glasses.jpeg);
+    background-image: url(..//images/city\ glasses.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ header{
 #secondparallax{
     position: relative;
     width: 100%;
-    background-image: url(./coderwallpaper.jpeg);
+    background-image: url(..//images/coderwallpaper.jpeg);
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -32,7 +32,7 @@ header{
 #thirdparallax{
     position: relative;
     width: 100%;
-    background-image: url(./coder123.jpeg);
+    background-image: url(../images/coder123.jpeg);
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -76,7 +76,7 @@ header{
 
 #portfolioimage1{
     position: relative;
-   background-image: url(./Traintime.jpeg);
+   background-image: url(../images/Traintime.jpeg);
    top: 20px;
    width:100px;
    height: 300px;
@@ -84,7 +84,7 @@ header{
 }
 #portfolioimage2{
     position: relative;
-    background-image: url(./safelyimage.jpeg);
+    background-image: url(../images/safelyimage.jpeg);
     top: 20px;
     width: 100px;
     height:300px;
@@ -92,7 +92,7 @@ header{
 }
 #portfolioimage3{
     position: relative;
-    background-image: url(./psychicimage.jpeg);
+    background-image: url(../images/psychicimage.jpeg);
     top: 20px;
     width: 100px;
     height:300px;
@@ -100,7 +100,7 @@ header{
 }
 #portfolioimage4{
     position: relative;
-    background-image: url(./crystalimage.jpeg);
+    background-image: url(../images/crystalimage.jpeg);
     top: 20px;
     width: 100px;
     height:300px;
