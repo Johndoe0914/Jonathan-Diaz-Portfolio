@@ -1,11 +1,4 @@
-header{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: solid;
-    color: black;
-    background-color:white;
-    border-color: black;
 
-}
 
 #firstparallax{
     position: relative;
@@ -42,6 +35,7 @@ header{
 #nav-bar{
     position: relative;
     height: 100px;
+    width: 100%;
 }
 
 #aboutmecontainer{
@@ -49,15 +43,14 @@ header{
     width: 100%;
     height: 400px;
     background-color:white;
-    z-index: 10;
-    margin: auto;
     border-style: solid;
     border-color: grey
 
 }
 #myimage{
-    position: absolute;
+    position: relative;
     width: 300px;
+    margin-left: 20px;
     height: 200px;
     margin: auto
 }
@@ -65,8 +58,8 @@ header{
     position: relative;
     width: 100%;
     height: 450px;
-    background-color: white;
-    z-index: 10;
+    background-color: black;
+   
     margin: auto;
     border-style: solid;
     border-color: grey;
@@ -74,39 +67,14 @@ header{
 
 }
 
-#portfolioimage1{
+#myCarousel {
     position: relative;
-   background-image: url(../images/Traintime.jpeg);
-   top: 20px;
-   width:100px;
-   height: 300px;
-   margin: 15px;
+    width: 600px;
+    height: 350px;
+    left:350px;
+   bottom: 50px;
 }
-#portfolioimage2{
-    position: relative;
-    background-image: url(../images/safelyimage.jpeg);
-    top: 20px;
-    width: 100px;
-    height:300px;
-    margin: 10px
-}
-#portfolioimage3{
-    position: relative;
-    background-image: url(../images/psychicimage.jpeg);
-    top: 20px;
-    width: 100px;
-    height:300px;
-    margin: 10px
-}
-#portfolioimage4{
-    position: relative;
-    background-image: url(../images/crystalimage.jpeg);
-    top: 20px;
-    width: 100px;
-    height:300px;
-    margin: 10px
 
-}
 
 #footer{
     position: relative;
@@ -126,47 +94,8 @@ html,body{
     padding: 0;
     
 }
-h1{
-    color:black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    line-height: 50px;
-    border-bottom-style: solid;
-    font-size: larger;
-}
-#portfolioText{
-    font-size: small;
-    line-height: 40px;
-    font-weight: bold;
-    border-left-style: solid
-    
-
-}
 
 
-
-    @media (max-width: 991.98px) {
-        .nav-item {
-            border-bottom: 2px solid #87B8B6;
-        }
-    
-        
-        
-        #galleries {
-            margin: auto;
-            max-width: 250px;
-        }
-    
-        .images {
-            clear: both;
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            max-width: 250px;
-            display: block;
-            margin-top: 10px;
-        }
-    }
     
     @media (min-width: 768px) and (max-width: 991.98px) {
         .galleryContainer {
